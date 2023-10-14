@@ -1,23 +1,24 @@
 .background{
-    background-image: url(https://i.stack.imgur.com/O73ks.jpg);
-    background-size: 100% 100%;
+    background-color: rgb(205, 189, 169);
 }
 .main{
-    text-align: center;
+    
     font-size: 60px;
     font-weight: bold;
-
+   
 }
 .first{
     text-align: left;
-    font-size: 45px;
+    font-size: 35px;
     color: rgb(194, 38, 38);
+    font-family:Georgia, 'Times New Roman', Times, serif;
     
 }
 .sec{
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     color: #671e1e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .thrd{
     text-align: center;
@@ -27,7 +28,7 @@
 }
 .Qua{
     text-align: left;
-    font-size: 25px;
+    font-size: 15px;
 
 }
 .pen{
@@ -40,14 +41,15 @@
 }
 .paza{
     text-align: left;
-    font-size: 30px;
+    font-size: 20px;
     color: #671e1e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .zoomable-image {
-    transition: transform 0.3s;
+    transition: transform 0.15s;
 }
 .zoomable-image:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .nav{
     padding: 20px;
@@ -60,5 +62,22 @@
 }
 .nav a:hover{
     background-color: #7bc3d0;
-    padding: 10px;
+    padding: 5px;
+}
+.squar{
+    border: #ffffff;
+    border-style: groove;
+    border: radius 5px; 
+    border-color: #ffffff;
+    margin: 50px;
+}
+.photo{
+    border: #ffffff;
+    border-style: outset;
+    border-radius: 5px;
+    margin: 150px;
+}
+.below {
+    font-size: 20px;
+
 }
